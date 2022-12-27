@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-@font-face {
+/* @font-face {
 	src: url('../fonts/Ephesis-Regular.ttf');
 	src: url('../fonts/Oranienbaum-Regular.ttf');
 	src: url('../fonts/AlumniSans-VariableFont_wght.ttf');
@@ -13,7 +13,7 @@
 	font-family: 'Ephesis', serif;
 	font-family: 'Oranienbaum', serif;
 	font-family: 'Ubuntu', serif;
-}
+} */
 a,button {
 	all:unset;
 }
