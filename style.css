@@ -41,7 +41,9 @@ main {
 	margin: 0px auto;
 }
 body {
-	margin: 0px auto;
+	margin: 0 auto;
+	width: 100%;
+
 }
 h1,h2 {
 	font-weight: 500;
@@ -208,8 +210,10 @@ margin-bottom: 10px;
 }
 .photo-profile {
 	display: flex;
-	object-fit: cover;
+	/* object-fit: cover; */
 	overflow: hidden;
+	max-width: 450px;
+	justify-content: center;
 }
 /* .photo-profile {
 	min-width: 500px;
