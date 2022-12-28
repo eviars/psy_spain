@@ -35,7 +35,7 @@ header {
 }
 main {
 	display: grid;
-	grid-template: 425px 505px 675px 865px 760px 400px 161px/minmax(1440px, auto);
+	grid-template: 425px 505px 675px 865px 760px 370px 161px/minmax(1440px, auto);
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
 	margin: 0px auto;
@@ -513,6 +513,6 @@ footer a:hover {
 }
 @media (min-width: 1600px) {
 	main {
-		grid-template: 425px 470px 600px 865px 760px 400px 161px/minmax(1440px, auto);
+		grid-template: 425px 470px 600px 865px 760px 370px 161px/minmax(1440px, auto);
 	}
 }
