@@ -175,8 +175,8 @@ section:nth-of-type(2) ul {
 
 .problems {
 	display: grid;
-	grid-template: 100%/minmax(200px, auto) minmax(200px, auto) minmax(200px, auto) minmax(200px, auto);
-	place-content: center/space-evenly;
+	grid-template: 100%/minmax(100px, auto) minmax(100px, auto) minmax(100px, auto) minmax(100px, auto);
+	place-content: space-evenly;
 	place-items: center;
 }
 .problems img {
@@ -193,10 +193,7 @@ margin-bottom: 10px;
 }
 .problems div {
 	font-size: 19px;
-	text-align: justify;
-	width: 300px;
-	height: auto;
-	/* margin-bottom: 30px; */
+	text-align: justify;	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -496,3 +493,4 @@ footer a:hover {
 	padding: 15px;
 	overflow: auto;
 }
+
