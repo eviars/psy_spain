@@ -31,12 +31,14 @@ nav div:hover {
 header {
 	display: grid;
 	grid-template: 122px/minmax(1400px, auto);
+	margin: 0px auto;
 }
 main {
 	display: grid;
 	grid-template: 425px 531px 790px 865px 760px 400px 161px/minmax(1400px, auto);
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
+	margin: 0px auto;
 }
 body {
 	margin: 0px auto;
