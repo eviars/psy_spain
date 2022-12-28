@@ -30,12 +30,12 @@ nav div:hover {
 }
 header {
 	display: grid;
-	grid-template: 122px/minmax(1400px, auto);
+	grid-template: 122px/minmax(1440px, auto);
 	margin: 0px auto;
 }
 main {
 	display: grid;
-	grid-template: 425px 531px 735px 865px 760px 400px 161px/minmax(1400px, auto);
+	grid-template: 425px 505px 760px 865px 760px 400px 161px/minmax(1440px, auto);
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
 	margin: 0px auto;
@@ -178,6 +178,7 @@ section:nth-of-type(2) ul {
 	grid-template: 100%/minmax(100px, auto) minmax(100px, auto) minmax(100px, auto) minmax(100px, auto);
 	place-content: space-evenly;
 	place-items: center;
+	margin: 0px 20px;
 }
 .problems img {
 height: 94px;
@@ -201,23 +202,28 @@ margin-bottom: 10px;
 }
 .greeting {
 	/* background-color: #f1f1f1; */
-	display: flex;
-	justify-content: flex-start;
+	display: grid;
+	grid-template: 100%/minmax(450px, auto) minmax(750px, auto);
 	background-image: linear-gradient(90deg, rgb(189, 224, 228) 50%, rgba(224,218,230,0.8) 80%);
 }
 .photo-profile {
+	display: flex;
+	object-fit: cover;
+	overflow: hidden;
+}
+/* .photo-profile {
 	min-width: 500px;
 	height: auto;
 	background-image: url(images/portrait2.jpg);
 	background-position: center;
 	background-size: cover;
 	display:flex;
-}
+} */
 .greeting-text {
-	min-width: 700px;
+	/* min-width: 700px; */
 	text-align: justify;
 	font-size: 19px;
-	margin: 30px;
+	margin: 30px 40px;
 	display: flex;
 	flex-direction: column;
 	flex: auto;
@@ -493,4 +499,8 @@ footer a:hover {
 	padding: 15px;
 	overflow: auto;
 }
-
+@media (min-width: 1700px) {
+	main {
+		grid-template: 425px 470px 630px 865px 760px 400px 161px/minmax(1440px, auto);
+	}
+}
