@@ -30,12 +30,12 @@ nav div:hover {
 }
 header {
 	display: grid;
-	grid-template: 122px/minmax(1360px, auto);
+	grid-template: 122px/minmax(1280px, auto);
 	margin: 0px auto;
 }
 main {
 	display: grid;
-	grid-template: 425px 525px 675px 865px 760px 370px 161px/minmax(1360px, auto);
+	grid-template: 425px 525px 675px 865px 760px 370px 161px/minmax(1280px, auto);
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
 	margin: 0px auto;
@@ -124,7 +124,7 @@ nav ul, section:nth-of-type(2) ul {
 	list-style: none;
 	display: flex;
 	font-weight: 400;
-	font-size: 28px;	
+	font-size: 24px;
 }
 .language {
 	display: flex;
