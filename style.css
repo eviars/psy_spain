@@ -128,7 +128,7 @@ nav ul, section:nth-of-type(2) ul {
 }
 .language {
 	display: flex;
-	padding: 30px 60px 60px 30px;
+	padding: 50px 60px 53px 30px;
 	font-size: 25px;
 	font-family: 'Alumni Sans', sans-serif;
 	align-self: flex-end;
