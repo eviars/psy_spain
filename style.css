@@ -235,6 +235,9 @@ margin-bottom: 10px;
 .greeting-text p {
 	margin-bottom: 20px;
 }
+.greeting-text a:hover {
+	font-weight: 600;	
+}
 section:nth-of-type(3) a {
 	font-weight: 500;
 }
